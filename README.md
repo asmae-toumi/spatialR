@@ -8,4 +8,4 @@ Relevant files: `mapbox.R` and `index.html`
 
 # Workflow 2: r2d3map 
 
-Relevant files: `svi_county.csv`, `r2d3map.R`
+Relevant files: `svi_county.csv`, `r2d3map.R` and `app.R`
