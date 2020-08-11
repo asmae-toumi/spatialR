@@ -31,10 +31,7 @@ cty_sf_joined <- cty_sf %>% geo_join(svi, by_sp = "fips", by_df = "fips")
 # UI ----------------------------------------------------------------------
 
 ui <- navbarPage("Fun with r2d3map", id="nav", 
-                 
-                 
-                 
-              
+
                  tabPanel(
                    "Interactive map",
                    withSpinner(d3Output(outputId = "mymap", width = "900px", height = "500px"))),
@@ -48,7 +45,6 @@ ui <- navbarPage("Fun with r2d3map", id="nav",
 
 server <- function(input, output) {
   
-  show_waiter(spin_fading_circles())
   # map panel 
   output$mymap <- renderD3({
     d3_map(shape = cty_sf_joined, projection = "Albers") %>%
