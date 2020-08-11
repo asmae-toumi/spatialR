@@ -44,11 +44,7 @@ ui <- navbarPage("Fun with r2d3map", id="nav",
 # Server ------------------------------------------------------------------
 
 server <- function(input, output) {
-  
-<<<<<<< HEAD
 
-=======
->>>>>>> e2c655e3dafb73b1378e20e4a7d7bb0c159414e5
   # map panel 
   output$mymap <- renderD3({
     d3_map(shape = cty_sf_joined, projection = "Albers") %>%
