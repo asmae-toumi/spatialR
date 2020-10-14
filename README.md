@@ -11,3 +11,6 @@ Relevant files: `mapbox.R` and `index.html`
 # Workflow 2: r2d3map 
 
 Relevant files: `svi_county.csv`, `r2d3.R` and `app.R`
+
+# Workflow 3: `leaflet.R`
+
