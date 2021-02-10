@@ -1,6 +1,6 @@
 # spatialR
 
-This repo contains the code needed to generate US county-level maps using 2 different workflows. 
+This repo contains the code needed to generate US county-level maps using 3 different workflows. 
 
 Blog post: https://asmae-toumi.netlify.app/posts/2020-08-10-how-to-make-web-ready-us-county-level-maps/
 
